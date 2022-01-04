@@ -7,7 +7,7 @@ const client = new Discord.Client();
 require('discord-buttons')(client);
 const fs = require('fs');
 // login to the bot
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.TOKEN);
 
 client.on('ready', () => {
     console.log(`${client.user.tag} is online.`)
